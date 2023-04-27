@@ -40,7 +40,7 @@ const MoviesPage = () => {
             </StyledLink>
           </Item>
         ))}</List>
-        <Outlet /></>
+        </>
     )
 }
 export default MoviesPage;

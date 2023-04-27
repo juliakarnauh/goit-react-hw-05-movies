@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import {Outlet,useLocation,useNavigate,useParams } from 'react-router-dom';
 import { fetchMoviesById } from 'services/moviesAPI';
-import { Button, MovieDetailsDiv, MovieTitle, MovieUpperTitle, MovieText, TextDiv, InfoDiv, StyledLink, MovieList, MovieItem } from './MovieDetails.styled';
+import { Button, MovieDetailsDiv, MovieTitle, MovieUpperTitle, MovieText, TextDiv, InfoDiv, StyledLink, MovieList, MovieItem } from './MovieDetailsPage.styled';
 
 const MovieDetailsPage = () => {
     const { movieId } = useParams();
