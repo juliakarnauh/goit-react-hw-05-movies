@@ -1,6 +1,6 @@
 import {Form, Button, Input, List, Item, StyledLink} from './MoviesPage.styled';
 import { fetchMoviesBySearch } from 'services/moviesAPI';
-import { Outlet,  useSearchParams, useLocation} from 'react-router-dom';
+import {  useSearchParams, useLocation} from 'react-router-dom';
 import {useState, useEffect, } from 'react'
 const MoviesPage = () => {
   const [movies, setMovies] = useState([]);
